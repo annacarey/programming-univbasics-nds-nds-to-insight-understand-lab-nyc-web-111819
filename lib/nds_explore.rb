@@ -13,4 +13,6 @@ def print_first_directors_movie_titles
   index = 0
   while index < nds[0].length do
     puts nds[0][index]
+    index +=1
+  end
 end
