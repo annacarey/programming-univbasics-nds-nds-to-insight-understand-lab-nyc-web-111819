@@ -16,4 +16,5 @@ def print_first_directors_movie_titles
   while index < nds[0][:movies].length
     puts nds[0[:movies][:title]
     index +=1 
+  end 
 end
