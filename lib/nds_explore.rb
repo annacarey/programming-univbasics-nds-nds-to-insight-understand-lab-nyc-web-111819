@@ -13,5 +13,5 @@ def print_first_directors_movie_titles
   index = 0
   puts nds[0][:movies]
   puts "length is" 
-  puts nds[0].length
+  puts nds[0][:movies].length
 end
