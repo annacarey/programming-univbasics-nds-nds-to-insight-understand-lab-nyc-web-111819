@@ -10,6 +10,7 @@ end
 
 def print_first_directors_movie_titles
   nds = directors_database
+  puts nds 
   index = 0
   while index < nds[0].length do
     puts nds[0][index]
