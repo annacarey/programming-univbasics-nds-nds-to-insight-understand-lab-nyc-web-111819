@@ -7,9 +7,8 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-
+nds = directors_database
 def print_first_directors_movie_titles
-  nds = directors_database
   index = 0
   while index < nds[0].length do
     puts nds[0][index]
