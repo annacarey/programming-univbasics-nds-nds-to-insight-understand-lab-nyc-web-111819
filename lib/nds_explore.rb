@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   nds = directors_database
   index = 0
-  if nds[:name] == "Stephen Spielberg" do
+  if nds[:name] == "Stephen Spielberg" 
     puts nds[:movies][:title]
   end
 end
